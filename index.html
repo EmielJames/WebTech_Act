@@ -2,25 +2,83 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Title</title>
+    <title>UC (PnC) Travel Blog</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/uc-logo.png" type="image/x-icon" />
   </head>
 
   <body>
     <!--edit edit na lang dito maya-->
     <header>
-      <h1>Logo</h1>
+      <img src="uc-logo.png" alt="uc-logo" />
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#homeID">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#contactID">Contacts</a></li>
+          <button class="signup-btn">Sign up</button>
+          <button class="login-btn">Log in</button>
         </ul>
       </nav>
     </header>
 
-    <section></section>
+    <section id="homeID">
+      <div class="home-ctn">
+        <div id="placePic">
+          <img
+            src="img\pnc1.jpg"
+            height="200"
+            class="center"
+            alt="PNC Main Building"
+          />
+          <p>Pamantasan ng Cabuyao</p>
+        </div>
 
-    <footer></footer>
+        <div id="placeDescription">
+          <p style="padding: 10px">
+            Pamantasan ng Cabuyao is a university <br />
+            in the city of Cabuyao, Laguna, Philippines. <br />
+            <br />
+            The university provides several college courses <br />
+            and also currently has a Senior High School <br />
+            department.
+          </p>
+        </div>
+      </div>
+      <br />
+
+      <div class="home-ctn">
+        <div id="placePic">
+          <img
+            src="img\cch.jpg"
+            height="200"
+            class="center"
+            alt="Cabuyao City Hall"
+          />
+          <p>City of Cabuyao Hall</p>
+        </div>
+
+        <div id="placeDescription">
+          <p style="padding: 10px">
+            The city hall of Cabuyao is a building <br />
+            that houses the departments and employees <br />
+            of the city.
+          </p>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <!--<img src="img\try.jpg" />-->
+    <!-- hindi kita image  alisin ko muna-nalilito ako sa bg hahahaha-->
+
+    <div id="">
+      <h1 id="contactID">Contacts</h1>
+      <p>Carreon, Charles S.</p>
+      <p>Cayaga, Kurt Joshua P.</p>
+      <p>Escuzar, Emiel</p>
+      <p>Fatal, Moises</p>
+      <p>Mag-usara, Kirt Asia S.</p>
+    </div>
   </body>
 </html>
